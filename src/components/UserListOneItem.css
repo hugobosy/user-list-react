@@ -1,0 +1,30 @@
+.UserListOneItem {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.UserListOneItem:hover {
+    background-color: #efefef;
+}
+
+.UserListOneItem__text {
+    margin-left: 20px;
+}
+
+.UserListOneItem__text p {
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.UserListOneItem__text span {
+    font-size: 12px;
+    color: #aaa;
+}
+
+.UserListOneItem__text span span {
+    font-weight: bold;
+    color: #777;
+}

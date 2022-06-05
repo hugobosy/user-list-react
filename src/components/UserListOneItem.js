@@ -2,7 +2,7 @@ import React from "react";
 import './UserListOneItem.css';
 
 export const UserListOneItem = props => (
-    <li key={props.user.username}>
+    <li key={props.user.username} onClick={()=>props.remove(props.user.username)}>
         <div className="UserListOneItem">
             <img src={`https://raw.githubusercontent.com/pixelastic/fakeusers/master/pictures/${props.user.picture}`}
                  alt="Avatar"/>
